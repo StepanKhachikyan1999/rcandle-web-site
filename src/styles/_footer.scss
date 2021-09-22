@@ -1,0 +1,34 @@
+.footer {
+    width: 100%;
+    height: 50px;
+    background: #242425;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .info {
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: #ffffff;
+        margin-right: 30%;
+    }
+    .siteInfo {
+        a {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            text-decoration: none;
+            list-style: none;
+            text-transform: lowercase;
+            color: #ffffff;
+            margin-left: 30%;
+        }
+    }
+}

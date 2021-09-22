@@ -1,0 +1,46 @@
+@import './styles/header';
+@import './styles/carousel';
+@import './styles/about';
+@import './styles/getPriceList';
+@import './styles/footer';
+@import './styles/contactus';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App {
+    max-width: 1360px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+    width: 140px;
+    height: 28px;
+    background: #242425;
+    border-radius: 25px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-transform: capitalize;
+    color: #ffffff;
+    }
+}
+.whiteBackground {
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+.contactUs {
+    position: relative;
+}
