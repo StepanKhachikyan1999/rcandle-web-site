@@ -249,6 +249,11 @@
       text-transform: capitalize;
       color: #ffffff; }
 
+.MuiPaper-root .MuiCard-root .makeStyles-root-13 .MuiPaper-elevation1 .MuiPaper-rounded:hover {
+  transform: translateY(-20px);
+  box-shadow: 5px 10px #888888;
+  transition: .2s; }
+
 * {
   padding: 0;
   margin: 0;
@@ -259,7 +264,8 @@
 
 .categories {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding: 19px; }
   .categories button {
     width: 140px;
     height: 28px;
@@ -275,6 +281,11 @@
     margin-top: 15px;
     text-transform: capitalize;
     color: #ffffff; }
+    .categories button:hover {
+      transform: translateY(-5px);
+      box-shadow: 2px 4px #242425;
+      color: green;
+      transition: .2s; }
 
 .whiteBackground {
   width: 100%;

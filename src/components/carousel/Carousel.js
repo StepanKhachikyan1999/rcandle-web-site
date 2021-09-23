@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import WOW from "wowjs";
-import slider1 from "../../img/slider1.png"
-import slider2 from "../../img/slider2.png"
+import slider1 from "../../img/slider1.png";
+import slider2 from "../../img/slider2.png";
 
 class CustomSlide extends Component {
   render() {
-
     const { index, ...props } = this.props;
     return (
       <div {...props}>
@@ -15,7 +14,6 @@ class CustomSlide extends Component {
     );
   }
 }
-
 
 export default class Responsive extends Component {
   componentDidMount() {
@@ -35,8 +33,26 @@ export default class Responsive extends Component {
     return (
       <div>
         <Slider {...settings} className="sliderMain">
-          <div className="sliderText"><h4 className="textOne wow slideInLeft" data-wow-duration="1s" data-wow-delay="1.5s">THE MOMENT</h4><img  src={slider1} style={{height:"387px",width:"100%"}} /></div>
-          <div className="sliderText"><h4 className="textTwo wow slideInLeft" data-wow-duration="1s" data-wow-delay="1.5s">THE MOMENT</h4><img src={slider2}/></div>
+          <div className="sliderText">
+            <h4
+              className="textOne wow slideInLeft"
+              data-wow-duration="1s"
+              data-wow-delay="1.5s"
+            >
+              THE MOMENT
+            </h4>
+            <img src={slider1} style={{ height: "387px", width: "100%" }} />
+          </div>
+          <div className="sliderText">
+            <h4
+              className="textTwo wow slideInLeft"
+              data-wow-duration="1s"
+              data-wow-delay="1.5s"
+            >
+              THE MOMENT
+            </h4>
+            <img src={slider2} />
+          </div>
         </Slider>
       </div>
     );

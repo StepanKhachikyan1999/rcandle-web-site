@@ -4,6 +4,7 @@
 @import './styles/getPriceList';
 @import './styles/footer';
 @import './styles/contactus';
+@import './styles/product';
 
 
 *{
@@ -18,6 +19,7 @@
 .categories {
     display: flex;
     justify-content: space-around;
+    padding: 19px;
 
     button {
     width: 140px;
@@ -34,6 +36,12 @@
     margin-top: 15px;
     text-transform: capitalize;
     color: #ffffff;
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 2px 4px #242425;
+        color: green;
+        transition: .2s;
+    }
     }
 }
 .whiteBackground {
